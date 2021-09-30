@@ -1,0 +1,28 @@
+{
+  "name": "n_p_m_module",
+  "version": "0.0.1",
+  "description": "this is test module for nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "prod": "node index.js"
+  },
+  "keywords": [
+    "JS",
+    "node",
+    "node.js",
+    "javascript"
+  ],
+  "author": "Viktor_Poluan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
